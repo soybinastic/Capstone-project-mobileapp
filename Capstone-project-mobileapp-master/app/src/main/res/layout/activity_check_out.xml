@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CheckOutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/check_out_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/check_out_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/check_out_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:padding="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/co_txt"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Total: "
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/check_out_total"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/check_out_total"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="P12000"
+                android:textAlignment="textEnd"
+                android:textColor="#c35805"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/co_txt"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/shiping_fee_tv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Shipping fee: "
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/shipping_fee"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/shipping_fee"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="P12000"
+                android:textAlignment="textEnd"
+                android:textColor="#c35805"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/shiping_fee_tv"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/total_cost_tv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Total Cost: "
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/total_cost"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/total_cost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="P12000"
+                android:textAlignment="textEnd"
+                android:textColor="#c35805"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/total_cost_tv"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/checkout_customer_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="John Doe"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkout_customer_contact_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="09872653412"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkout_customer_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Bulua, Cagayan de Oro City"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/check_out_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is deliver?"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/app_black"/>
+
+        <Button
+            android:id="@+id/place_order_btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="@color/black"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="PLACE ORDER"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

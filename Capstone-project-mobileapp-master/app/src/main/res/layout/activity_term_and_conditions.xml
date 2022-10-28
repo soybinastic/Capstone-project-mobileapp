@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TermAndConditionsActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/term_and_condition_toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/term_and_condition_layout"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/term_and_condition_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/term_and_condition_toolbar">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Conditions"
+                    android:textColor="@color/app_black"
+                    android:textStyle="bold"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(1) Terms of Use"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="vertical"
+                        android:paddingLeft="25dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Account Creation and Management"
+                            android:textColor="@color/app_black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Intellectual Property Rights"
+                            android:textColor="@color/app_black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Limitation of Liability"
+                            android:textColor="@color/app_black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severability"
+                            android:textColor="@color/app_black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Governing Law"
+                            android:textColor="@color/app_black"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(2) Ordering and Payment"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(3) Delivery and Pickup"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(4) Cancellation of Order"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(5) Product Information and Warranty"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(6) Privacy Policy"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Fastline Hardware platform Terms and Conditions"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="A. TERMS OF USE"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Welcome, our valued Customer!"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Before you continue, kindly read carefully the terms and conditions in using and accessing the Fastline Hardware platform. Should you agree on the terms and conditions set herein, you are authorized to use the website."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="ACCOUNT CREATION AND MANAGEMENT"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Only users who are at least 18 years old may create an account on our app."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="By creating the account on our platform, you intend to view, purchase a product or products, representing that you are of legal age to form a binding contract, and representing further that all information you provide to us in connection with such order is true and accurate."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="All users are expected to be responsible in using our platform. You agreed not to:"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="vertical"
+                        android:paddingLeft="25dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="- Create or share inappropriate comments, reviews or posts about us, the products available in our website or other customers
+"
+                            android:textColor="@color/app_black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="- Place fraudulent order"
+                            android:textColor="@color/app_black"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="- open a fake account or spread viruses and other malicious programs"
+                            android:textColor="@color/app_black"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Suspension or Termination of Account"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="We reserve the right to immediately and without prior notice suspend or terminate your account, cancel your orders, and prohibit you from accessing or using our website in the event that this site was used in a manner that (a.) harasses, abuses or causes damage or otherwise infringes or violates the rights of other party or any third party (b.) is unlawful, fraudulent or deceptive (c.) provides sensitive personal information unless required by us and with your consent (d.) attempts to gain unauthorized access to our computer system or networks (e.) encourages or performs conduct that would constitute a criminal offense or that gives rise to civil liability (f.) violates these terms (g.) and all other illegal and prohibited acts identified by law, good morals, and our policy."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="INTELLECTUAL PROPERTY RIGHTS"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="All intellectual property and content present in our e-commerce platform including but not limited to brand names, logos, marks, images, graphics and text are exclusively owned by the Fastline Hardware stores. You may use it for your personal use but is prohibited to distribute, copy, reproduce, sell, license, modify, publish, edit or manipulate the abovementioned intellectual property and content without our written consent."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="LIMITATION OF LIABILITY"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="You agree to release Fastline Hardware, its management, officers, employees from or against any and all losses, claims, liabilities, expenses and damages arising directly or indirectly from or related to your use of our e-commerce platform or your violation to these terms and conditions."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Moreover, you also agree to comply with the terms and conditions mentioned in this website at all times."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="SEVERABILITY"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="If any of these Terms and Conditions is held by a court of competent authority to be illegal, invalid or unenforceable, the remaining provision shall remain in full force and in effect. The provision shall be restated to reflect the original intentions of these Terms and Conditions in accordance with applicable law."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="GOVERNING LAW"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="These terms and conditions are governed by the Philippine law. Any action seeking equitable relief arising out of or relating to the terms and condition of the Fastline Hardware platform will be brought only in the courts of Cagayan de Oro City, Philippines to the exclusion of all other venues."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="B. ORDERING AND PAYMENT"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(1) PLACING AN ORDER"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="We reserve the right to decline or cancel any order at any time as long as the status of your order is pending."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Receiving of your orders have a cut-off time of until 5PM only daily. Transactions done beyond the hour mentioned shall be considered as purchases of the following day. "
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(2) PAYMENT"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Orders may be paid through cash on delivery."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="C. DELIVERY AND PICK UP"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="(1) DELIVERY"
+                        android:textColor="@color/app_black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="- An outsourced delivery service shall deliver your purchased items for a fee. The fee shall be added to your payable amount upon check out. "
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="- If you will not be available to receive your order kindly designate a representative. In such instance, we reserve the right to request you to present an Authorization letter stating the name of your authorized representative and the latter’s relationship to you."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="C. CANCELLATION OF ORDERS"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="1) Upon cancellation, our system will not be able to recover cancelled orders"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="3) Fastline Hardware only allow cancellation for items ordered through our e-commerce platform when condition mentioned below are met:"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="a) A transaction confirmation was not yet issued"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="D. PRODUCT INFORMATION AND WARRANTY"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Product Information"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="We exert careful efforts to offer you with the most accurate description and products in this app for your home improvement needs."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="We do not guarantee that the information herein is free from errors or up to date, therefore we are encouraging all platform users/customers to confirm important facts that will contribute to your item purchase."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Fastline Hardware reserves the right to alter, update or revise any information in this website anytime and user is considered aware of this and shall be bound to the changes in effect to the platform"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Fastline hardware has the right to change the prices of the products present in the platform anytime, without prior notice. Furthermore, Fastline Hardware shall not be required to explain the reason of the changes."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Warranty"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="1) Fastline Hardware shall provide free support and technical assistance to customers who wanted to avail of the product warranty provided that it is within the period or duration as well as the bounds of warranty terms"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="2) For some items a warranty card is included inside the packaging which states the information and coverage of the item warranty. This shall be presented when claiming for the service."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="3) Customers must keep original invoice/receipt and warranty card (if included in the item)"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="4) Warranty is void in the event of:"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="a) Customer’s misuse, abuse, mishandling, negligence, improper storage or operation"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="b) Unauthorized repair, modification or alteration"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="c) Force Majeure"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="d) Expiration of warranty period"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="E. PRIVACY POLICY"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Privacy Statement"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Fastline Hardware values an individual’s right to privacy. As such, we ensure that all personal and sensitive data we collected and entrusted to us are managed and protected at all times in accordance with Republic Act 10173, otherwise known as the Data Privacy Act. Likewise, we make it a point to inform individuals from whom we collect such data of this policy and to respect and enforce their rights as data subjects. This is in consonance of the principles of corporate responsibility and in recognition of the policy of the state to protect the fundamental human right of privacy while ensuring free flow of information to promote innovation and growth. For this purpose, Fastline Hardware implements all necessary security measures to ensure the protection of an individual’s personal data."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Scope"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="1. This document enumerates Fastline Hardware organizational policy in relation to the collection, use, storage, sharing and disposal of all personal data acquired from customers and visitors who are using our online ordering site and are processed by the organization in accordance with Data Privacy Law, its IRR, and all related issuances of NPC."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="2. Fastline Hardware maintains the right to amend and/ or modify this policy to comply with any future changes or development in local/ foreign data privacy regulations where applicable and to reflect the organization’s policies."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="3. This online Privacy Policy applies only to information collected through our online ordering site and not to information collected offline."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="What Information do we collect and its purpose?"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="When ordering or registering on our site, respond to a survey or fill out a form, and submit to us to your inquiries or concerns, as appropriate and required we collect, process, use and store any and all personal data necessary for us to perform or fulfill its services to you. Such data may include among others:"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="a. Personal details such complete name, home address, gender, date of birth, contact number, email-address"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="b. Credit History"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="c. Proof of financial capacity"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="d. Government issued identification"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="e. Other Relevant Personal and Confidential Information"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Should you choose not to provide any or all of the above personal data, Fastline Hardware may not be able to accommodate or perform the required services or respond to your queries and request."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Fastline Hardware collects, processes and uses your personal data to give you better services in processing your orders, payments, deliveries, to accommodate and respond to your inquiries, concerns or request, and to inform you of our products, services, promotions, events, to improve our customer service, to personalize your experience and better respond to your individual needs, and for other legitimate business purposes."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/app_black"
+                        android:text="Please be informed at all times, that the information that we collect from you are only those necessary and relevant to our dealings with you and in order to perform the required services."
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="How do we protect your information?"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="We implement a variety of security measures to maintain the safety of your personal information when you enter, submit or access your personal information"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Only authorized Fastline Hardware personnel has access to your personal data. Personal data collected via electronic means are stored in a well-maintained database managed by our system expert while physical data are stored in locked filing cabinets with CCTV using the prevailing document and records management policy of the company."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="As general rules and in abiding the legal requirement of the law, Fastline Hardware is not allowed to share (disclose, trade, sell or transfer) your personal identifiable information with other third parties or outside parties except if imperative and necessary to perform the services and purposes, and unless with your consent. This, however, does not include trusted third parties who assist us in operating our website, conducting our business or servicing you. Nevertheless, we assure you that we will keep the sharing of information at the minimum or data shared are those only required by them to achieve the purpose, and any data shared with such third parties will be safeguarded by data sharing agreement which includes declaration by the third parties that they agree to keep this information confidential at all times. We may also release your information when we believe release is appropriate to comply with the law or protect ours or others rights, property or safety."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="How to access and correct your Personal Data?"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="The accuracy and correctness of any personal data provided shall be your responsibility as well as the consequences of your failure to disclose your correct and updated personal data to Fastline Hardware."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="In accordance with the Data Privacy Law, as data subject you have the right to access, obtain or ask for a copy of your personal data whether in our computer data base or manual filing system, and whether for purpose of your information or knowledge, or for it to be corrected and/or updated."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="The same shall be provided to you in an easy access format, accompanied with full explanation executed in plain language. Should you obtain to obtain information, you may demand the following:"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="a. The content of your personal data that were processed"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="b. The sources from which they were obtained"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="c. Names and addresses of the recipient of your data"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="d. Manner by which they were processed"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="e. Reasons for disclosure, if there are any"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="f. Date when your data was last accessed and modified"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="To correct and update your personal data you may contact Fastline Hardware customer service inside our stores or contact us or send us a message stating the personal data you wished to access or be corrected and/ or updated. Fastline Hardware shall provide you the data you want to access as well as process the correction and/ or update of your personal data within the time allowed by law and regulations."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="In the event that correcting or updating of personal data is not possible due to legal and technical reasons, Fastline Hardware will contact you and explain the reason/s thereof."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="How do we retain and dispose your personal data?"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="It is our policy to ensure that personal data is only retained for a limited period pertinent for the purpose for which they were collected or until the lawful and legitimate purpose of the processing is achieved (e.g. while you are our active customer, etc.). Once the purpose has been achieved or the such personal data is not or no longer necessary for the services or purposes, and/or the retention of which is no longer allowed by law, and it appears that storage of your personal data is no longer necessary, we shall immediately destroy or dispose said information in a secure manner through established procedures for securely disposing files that contain personal data whether the same is stored on paper, film, optical or magnetic media, personal data stored offsite, and computer equipment, such as disk servers, desktop computers and mobile phones through shredding for physical records while digital files shall be anonymized. Once deleted, your personal data will no longer be searchable or accessible and will be completely removed from our database"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Your Consent"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="By using our online ordering site, you consent to our Privacy Policy."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Changes in our Privacy Policy"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="As stated above, Fastline Hardware reserves the right to change, modify or amend our Policy from time to time. Any change or amendment in our Policy will be posted here and will take effect immediately"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Contact us"
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="For any concerns or inquiries, please contact Fastline Hardware customer service inside our stores or through sending us a message in our online ordering site and/ or our official Fastline Hardware website."
+                        android:textColor="@color/app_black"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

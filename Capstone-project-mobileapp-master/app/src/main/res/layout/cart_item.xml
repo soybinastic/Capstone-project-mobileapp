@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/cart_item_remove"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="x"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cart_item_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/cart_item_nameprice"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/product_cover" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cart_item_nameprice"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/qty_container"
+                app:layout_constraintStart_toEndOf="@+id/cart_item_image"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/cart_item_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Product Name"
+                    android:textAlignment="center"
+                    android:textColor="@color/app_jet"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@id/cart_item_price"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/cart_item_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="P450.50"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:textColor="#c35805"
+                    android:textSize="12dp"
+                    android:textStyle="italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cart_item_name" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                android:id="@+id/qty_container"
+                android:layout_width="135dp"
+                android:layout_height="0dp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/cart_item_nameprice"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/prod_categ_bg"
+                    android:padding="4dp"
+                    android:gravity="center">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/decrement_item_qty_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textAlignment="center"
+                            android:textColor="@color/app_black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <EditText
+                        android:id="@+id/editText_cart_item_qty"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:ems="10"
+                        android:hint="20"
+                        android:inputType="number"
+                        android:text="10"
+                        android:background="@null"
+                        android:textAlignment="center"
+                        android:textSize="14dp" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/increment_item_qty_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="+"
+                            android:textAlignment="center"
+                            android:textColor="@color/app_black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cart_item_adjust_qty_btn"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="OK"
+                        android:textAlignment="center"
+                        android:textColor="@color/app_black"
+                        android:textSize="16dp"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

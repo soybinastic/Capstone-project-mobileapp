@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.VerificationFormActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/verification_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/verification_linearlayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/verification_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/verification_toolbar">
+
+        <TextView
+            android:id="@+id/verification_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="John Doe"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/verification_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Nazareth, Cagayan de Oro City"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/verification_contact_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="09127654893"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NBI Image"/>
+                <Button
+                    android:id="@+id/nbi_browse_btn"
+                    android:backgroundTint="@color/app_jet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHOOSE FILE"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Barangay Clearance Image"/>
+                <Button
+                    android:id="@+id/barangay_clearance_browse_btn"
+                    android:backgroundTint="@color/app_jet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHOOSE FILE"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Government Id Image"/>
+                <Button
+                    android:id="@+id/government_id_browse_btn"
+                    android:backgroundTint="@color/app_jet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHOOSE FILE"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/verification_submit_btn"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:backgroundTint="#c35805"
+            android:enabled="false"
+            android:text="SUBMIT"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

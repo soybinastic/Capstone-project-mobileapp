@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OnlineHardwareOrderingApp</string>
+    <string name="shared_pref">AlreadyOpen</string>
+    <string name="FLH_API_URL">http://fastline-001-site1.dtempurl.com/</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">"A Friendly Clown" "On one corner of my dresser sits a smiling toy clown on a tiny unicyclea gift I received last Christmas from a close friend.</string>
+</resources>

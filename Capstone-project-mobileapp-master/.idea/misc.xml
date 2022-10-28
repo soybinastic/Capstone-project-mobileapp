@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/add.xml" value="0.236" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/black_container_bg.xml" value="0.236" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/black_right_back_icon.xml" value="0.237" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/bottom_line_blck.xml" value="0.2185" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/btn_stroke.xml" value="0.2045" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/getstartedbtn.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.237" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.237" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.237" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2185" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/input_line_stroke.xml" value="0.236" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/input_text_bg.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/input_text_bg_r.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/logout.xml" value="0.2775" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/menubarbg.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/menuitembg.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/prod_categ_bg.xml" value="0.236" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/prod_details.xml" value="0.2045" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/product.xml" value="0.236" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/red_grdnt_square.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/search_btn.xml" value="0.236" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/search_input.xml" value="0.236" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/square_border_radius.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/store_row_container.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/user_img.xml" value="0.2185" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/wall.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/drawable/wall_reverse.xml" value="0.2385" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/account_option.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_account.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_branch_detail_and_products.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_check_out.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_history_orders.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_intro.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_location.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_order_history_details.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_product_details.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_profile_information.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_search_store.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_successfully_place_order.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_term_and_conditions.xml" value="0.18444209785286872" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_terms_and_conditions.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/activity_verification_form.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/bottom_sheet_for_map.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/button_progress_bar.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/cart_item.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/fragment_map.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/fragment_stores.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/loading_alert_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/order_products_bottom_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/order_products_row.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/order_row.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/product.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/product_category.xml" value="0.25" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/layout/row_store.xml" value="0.33" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/menu/branch_details_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Cristian Rec Aboc/capstone_projects/Capstone-project-mobileapp-master/app/src/main/res/menu/essential_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/drawable/getstartedbtn.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/drawable/menubarbg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/drawable/menuitembg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/drawable/wall.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/layout/activity_get_started.xml" value="0.2" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/layout/activity_intro.xml" value="0.2" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/bisoyvinuya/AndroidStudioProjects/OnlineHardwareOrderingApp/app/src/main/res/menu/menu_bar.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

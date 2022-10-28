@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded." parent="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">19dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.AppCompat." parent="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title." parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+</resources>
